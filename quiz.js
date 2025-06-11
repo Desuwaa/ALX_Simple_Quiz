@@ -11,3 +11,5 @@ function checkAnswer() {
       "That's incorrect. Try again!";
   }
 }
+const submitAnswer = document.getElementById('submit-answer');
+submitAnswer.addEventListener('click', checkAnswer);
