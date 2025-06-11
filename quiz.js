@@ -1,4 +1,5 @@
+'use strict';
 function checkAnswer() {
-   const correctAnswer = "4"
-   const checkedOption = document.querySelector('input[name="quiz"]:checked')
+  const correctAnswer = '4';
+  const userAnswer = document.querySelector('[name="quiz"]').value;
 }
